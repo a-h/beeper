@@ -6,8 +6,7 @@ A Go library for using a piezo buzzer on the Raspberry Pi via the PWM output.
 
 Connect a piezo to the PWM output pin on the Pi (e.g. BCM pin 12, or pin 32 on the Raspberry Pi zero - see https://pinout.xyz for more details).
 
-
-## Setup
+## Setup
 
 ```go
 err := rpio.Open()
